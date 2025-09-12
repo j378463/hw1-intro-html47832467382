@@ -16,4 +16,5 @@ This is my submission for CSUN's HW1 Intro HTML assignment.
 - `script.js`
 
 ## Hosting
-This site is hosted on GitHub.
+
+This site is hosted on GitHub (https://j378463.github.io/hw1-intro-html47832467382/).
