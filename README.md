@@ -18,4 +18,3 @@ This is my submission for HW1 Intro HTML assignment.
 ## Hosting
 
 This site is hosted on GitHub (https://j378463.github.io/hw1-intro-html47832467382/).
-
