@@ -1,7 +1,7 @@
 # HW1 Intro HTML
 
 ## Overview
-This is my submission for CSUN's HW1 Intro HTML assignment.
+This is my submission for HW1 Intro HTML assignment.
 
 ## Findings
 - Added `<header>`, `<section>`, and `<footer>` for structure.
@@ -18,3 +18,4 @@ This is my submission for CSUN's HW1 Intro HTML assignment.
 ## Hosting
 
 This site is hosted on GitHub (https://j378463.github.io/hw1-intro-html47832467382/).
+
