@@ -7,10 +7,10 @@
 
     <title>Hello CSUN!</title>
 
-    <!-- Import the webpage's stylesheet -->
+    <!-- Imports the webpage's stylesheet -->
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Import the webpage's JavaScript file -->
+<!-- defer ensures script runs after HTML is parsed -->
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -26,6 +26,7 @@
     <p>
         I've added elements and attributes to demonstrate HTML basics for the HW1 assignment.
     </p>
+    <!-- Image with explicit width/height for layout stability and accessibility -->
     <img
             src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"
             alt="Placeholder image for CSUN project"
@@ -38,6 +39,7 @@
 <section id="links" class="content-section">
     <h2>Useful Resources</h2>
     <ul>
+        <!-- target="_blank" opens links in new tab for better UX -->
         <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
         <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
         <li><a href="https://github.com" target="_blank">GitHub</a></li>
@@ -51,5 +53,6 @@
 </body>
 
 </html>
+
 
 
