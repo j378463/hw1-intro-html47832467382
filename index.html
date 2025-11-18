@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
 
+    <!-- Page title shown in browser tab -->
     <title>Hello CSUN!</title>
 
     <!-- Imports the webpage's stylesheet -->
     <link rel="stylesheet" href="style.css" />
 
-<!-- defer ensures script runs after HTML is parsed -->
+<!-- 
+        Loads the JavaScript file.
+        The 'defer' attribute ensures the script runs only after the HTML is fully parsed,
+        preventing any DOM manipulation errors.
+    -->
     <script src="script.js" defer></script>
 </head>
 <body>
-<!-- Main header section -->
+<!-- Main header section serves as the primary banner of the page -->
 <header id="main-header">
     <h1>Hello 👋 Comp Sci !!!!</h1>
     <p>Welcome to my CSUN HW1 webpage!</p>
@@ -26,7 +31,10 @@
     <p>
         I've added elements and attributes to demonstrate HTML basics for the HW1 assignment.
     </p>
-    <!-- Image with explicit width/height for layout stability and accessibility -->
+<!-- 
+            Placeholder image demonstrating proper use of src, alt, width, and height attributes.
+            Explicit width/height prevent layout shift (CLS) and improve accessibility.
+        -->
     <img
             src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"
             alt="Placeholder image for CSUN project"
@@ -39,7 +47,11 @@
 <section id="links" class="content-section">
     <h2>Useful Resources</h2>
     <ul>
-        <!-- target="_blank" opens links in new tab for better UX -->
+<!-- 
+                List of web development resources.
+                target="_blank" opens links in a new tab.
+                It's good practice to combine with rel="noopener" for security (not shown here).
+            -->
         <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
         <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
         <li><a href="https://github.com" target="_blank">GitHub</a></li>
@@ -53,6 +65,7 @@
 </body>
 
 </html>
+
 
 
 
